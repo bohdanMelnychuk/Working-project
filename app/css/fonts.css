@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "OFLGoudyStM";
+	src: url("../fonts/OFLGoudyStM.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+    font-family:"OFLGoudyStM-Italic";
+    src:url("../fonts/OFLGoudyStM-Italic.otf");
+    font-weight:normal;
+    font-style:normal;
+}

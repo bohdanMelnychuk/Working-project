@@ -1,0 +1,164 @@
+body{
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    color: #626262;
+    min-width: 320px;
+}
+
+/*====================header===================================*/
+header{
+    height: 827px;
+    background-image: url(../images/logo-home.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+
+header>nav.menu-top{
+    height: 120px;
+    margin-bottom: 0;
+    position: relative;
+}
+.logo>.brand-top{
+  display: block;
+}
+.logo h1{
+    font-family: 'OFLGoudyStM';
+    font-size: 36px;
+    padding-top: 35px;
+    padding-left: 10px;
+    margin: 0;
+}
+div.top-nav{
+    padding: 0;
+    height: auto;
+}
+ul.top-nav-panel{
+    padding: 0;
+    margin: 0;
+}
+ul.top-nav-panel>li{
+    display: inline-block;
+    line-height: 120px;
+    padding: 0 15px;
+}
+ul.top-nav-panel>li>a{
+    font: 400 16px / 10px sans-serif;
+    color: #626262;
+    text-transform: uppercase;
+}
+a.brand-top{
+    padding: 0;
+}
+.title-block{
+    margin-top: 120px;
+}
+.title-block>h1{
+    color: #ffffff;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.title-block h1>mark{
+    font-family: "OFLGouduStM";
+    background-color: rgba(71, 39, 106, 0.82);
+    color: #fff;
+    font-weight: 100;
+    font-style: italic;
+    border-radius: 3px;
+}
+.title-block>p{
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+/*=================section.more-info===================*/
+.offer{
+    margin-bottom: 50px;
+}
+.offer-block{
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.offer-block>h2{
+    font-family: "OFLGoudyStM";
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #626262;
+}
+.info-block{
+    height: 280px;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.info-block:hover{
+    box-shadow: 2px 2px 3px 3px #d8d5d5;
+}
+.info-block>p{
+    padding-bottom: 20px;
+}
+.info-block>h2{
+/*    padding-bottom: 10px;*/
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2d2d2d;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.info-block>div>img{
+  display: block;
+  margin: 0 auto;
+}
+/*============footer==============*/
+footer.footer-home{
+    padding: 35px 0;
+}
+.social-link>ul>li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.social-link>ul>li>a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #5e3b88;
+    font-family: "OFLGoudyStM";
+}
+.menu-bottom>nav>ul>li{
+    display: inline-block;
+    padding: 0 7px;
+    border-right: 1px solid #626262;
+    color: #626262;
+    height: 12px;
+    line-height: 12px;
+}
+.nav-bottom{
+    padding: 0;
+}
+.menu-bottom>nav>ul>li:last-child{
+    border-right: none;
+}
+.menu-bottom>nav>ul>li>a{
+    padding: 0;
+    text-transform: uppercase;
+    color: #626262;
+}
+.payment{
+    padding-top: 20px;
+}
