@@ -77,6 +77,9 @@ body{
     .banner{
         padding: 20px 0;
     }
+    .line-top{
+        width: 100%;
+    }
     .wrap-banners-img{
         padding-left: 0;
     }
