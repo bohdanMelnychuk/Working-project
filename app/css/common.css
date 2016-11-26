@@ -4,102 +4,10 @@ body{
     color: #626262;
     min-width: 320px;
 }
+
+
 /*============index.html============*/
 /*===========header================*/
-.banner-index{
-    background-image: url(../images/banner-index.jpg);
-    background-size: cover;
-    background-position: top center;
-    height: 200px;
-    padding-top: 50px;
-}
-.title-servise{
-   background-color: #626262;
-    padding: 10px 25px;
-    text-align: center;
-    width: 90%;
-}
-.title-servise>h1{
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-}
-/*================section.full-info===========*/
-.wrap-banners-img{
-    padding-left: 40px;
-}
-.wrap-banners-img>img{
-    border-bottom: 3px solid #78589b;
-}
-.line-top{
-    width: 50%;
-    border-top: 1px dashed #8e8c8c;
-    margin-top: 30px;
-}
-.info-group{
-    padding: 0 15px;
-}
-.info-group>h2{
-    font-family: "OFLGoudyStM";
-    font-size: 25px;
-    margin-top: 10px;
-    color: #2d2d2d;
-}
-.info-group>p{
-    font-size: 14px;
-    
-}
-.info-group>ul.items{
-    list-style-image: url(../images/list-item.jpg);
-}
-@media only screen and (max-width:1200px){
-    
-}
-@media only screen and (max-width:992px){
-    
-}
-@media only screen and (max-width:768px){
-    .title-servise{
-        margin-top: 40px;
-        padding: 10px;
-    }
-    .title-servise>h1{
-        font-size: 20px;
-        
-    } 
-}
-@media only screen and (max-width:480px){
-    .banner-index{
-        padding-top: 0;
-    }
-    .banner{
-        padding: 20px 0;
-    }
-    .line-top{
-        width: 100%;
-    }
-    .wrap-banners-img{
-        padding-left: 0;
-    }
-    .wrap-banners-img>img{
-        margin: 0 auto;
-        display: block;
-    }
-}
-@media only screen and (max-width:320px){
-    
-}
-/*====================home.html====================*/
-/*====================header===================================*/
-.home-title{
-    height: 827px;
-    background-image: url(../images/logo-home.jpg);
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 80px;
-}
 
 header>nav.menu-top{
     height: 120px;
@@ -137,6 +45,100 @@ ul.top-nav-panel>li>a{
 a.brand-top{
     padding: 0;
 }
+.banner-index{
+    background-image: url(../images/banner-index.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 200px;
+    padding-top: 50px;
+}
+.title-servise{
+    text-align: center;
+}
+.title-servise>h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #626262;
+}
+/*================section.full-info===========*/
+.wrap-banners-img{
+    padding-left: 40px;
+}
+.wrap-banners-img>img{
+    border-bottom: 3px solid #78589b;
+}
+.line-top{
+    width: 50%;
+    border-top: 1px dashed #8e8c8c;
+    margin-top: 30px;
+}
+.info-group{
+    padding: 0 15px;
+}
+.info-group>h2{
+    font-family: "OFLGoudyStM";
+    font-size: 25px;
+    margin-top: 10px;
+    color: #2d2d2d;
+}
+.info-group>p{
+    font-size: 14px;
+    
+}
+.info-group>ul.items{
+    list-style-image: url(../images/list-item.jpg);
+}
+/*============footer==============*/
+footer.footer-home{
+    padding: 35px 0;
+}
+.social-link>ul>li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.social-link>ul>li>a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #5e3b88;
+    font-family: "OFLGoudyStM";
+}
+.menu-bottom>nav>ul>li{
+    display: inline-block;
+    padding: 0 7px;
+    border-right: 1px solid #626262;
+    color: #626262;
+    height: 12px;
+    line-height: 12px;
+}
+.nav-bottom{
+    padding: 0;
+}
+.menu-bottom>nav>ul>li:last-child{
+    border-right: none;
+}
+.menu-bottom>nav>ul>li>a{
+    padding: 0;
+    text-transform: uppercase;
+    color: #626262;
+}
+.payment{
+    padding-top: 20px;
+}
+
+
+/*====================home.html====================*/
+/*====================header=======================*/
+.home-title{
+    height: 827px;
+    background-image: url(../images/logo-home.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+
 .title-block{
     margin-top: 200px;
 }
@@ -202,7 +204,6 @@ a.brand-top{
     padding-bottom: 20px;
 }
 .info-block>h2{
-/*    padding-bottom: 10px;*/
     text-transform: uppercase;
     font-size: 20px;
     color: #2d2d2d;
@@ -213,39 +214,181 @@ a.brand-top{
     display: block;
     margin: 0 auto;
 }
-/*============footer==============*/
-footer.footer-home{
-    padding: 35px 0;
+
+/*=============About Us Page======*/
+
+
+
+
+
+
+/*============MEDIA QUERIES==========*/
+
+/*================Large device=========*/
+@media only screen and (max-width:1200px){
+/*===========Index page=============*/
+    
+/*========Home page=======*/
+    .logo>a>img.brand-logo{
+        max-height: 90px;
+        max-width: 90px;
+        margin-bottom: -1px;
+    }
+    .logo>h1{
+        padding-top: 25px;
+    } 
+   ul.top-nav-panel{
+        position: absolute;
+        top: 89px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        background-color: #8c8a8b;
+    }
+    ul.top-nav-panel>li{
+        height: auto;
+        line-height: 50px;
+    }
+    ul.top-nav-panel>li>a{
+        color: #fff;
+    } 
 }
-.social-link>ul>li{
-    display: inline-block;
-    padding: 5px 20px;
+
+/*=================Laptop======================*/
+@media only screen and (max-width:992px){
+/*===========Index page=============*/
+    
+/*========Home page=======*/
+    header{
+        margin-bottom: 0;
+    }
+     header>nav.menu-top{
+        height: 90px;
+    }
+    .offer-block{
+        margin-bottom: 0;
+    }
+    .offer-block>h2{
+        margin-top: 0;
+    }
+   div.wrap-img>img{
+        margin: 0 auto;
+    }
+    .info-block {
+    height: auto;
+    width: 80%;
+    margin: 0 auto 30px auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    }
+    footer.footer-home{
+        padding-top: 0;
+    }  
 }
-.social-link>ul>li>a{
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #5e3b88;
-    font-family: "OFLGoudyStM";
+
+/*=============Tablet==================*/
+@media only screen and (max-width:767px){
+/*===========Index page=============*/
+   .title-servise{
+        text-align: left;
+    }
+    .title-servise>h1{
+        font-size: 18px;
+    } 
+    section.full-info{
+        padding: 20px 0;
+    }
+/*========Home page=======*/
+    
+     header>nav.menu-top{
+        height: 90px;
+        z-index: 9999;
+    }
+    .logo>a>img.brand-logo{
+        height: 90px;
+        width: 90px;
+        margin-right:15px;
+        margin-top: -1px;
+    }
+    div.logo>button.menu-btn{
+        margin: 22px 8px 32px 0;
+    }
+    ul.top-nav-panel{
+        position: static;
+    }
+    
+    
+    
 }
-.menu-bottom>nav>ul>li{
-    display: inline-block;
-    padding: 0 7px;
-    border-right: 1px solid #626262;
-    color: #626262;
-    height: 12px;
-    line-height: 12px;
+
+/*==================Phone===============*/
+@media only screen  and (max-width:480px){
+/*===========Index page=============*/
+    .banner-index{
+        padding-top: 0;
+    }
+    .banner{
+        padding: 20px 0;
+    }
+    .line-top{
+        width: 100%;
+    }
+    .wrap-banners-img{
+        padding-left: 0;
+    }
+    .wrap-banners-img>img{
+        margin: 0 auto;
+        display: block;
+    }
+/*========Home page=======*/  
+    header>nav.menu-top{
+        height: 60px;
+    }
+    .logo>a>img.brand-logo{
+        height: 60px;
+        width: 60px;
+        margin-right:5px;
+    }
+    div.logo>button.menu-btn{
+        margin: 12px 8px 13px 0;
+    }
+    .logo>h1{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    ul.top-nav-panel{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        background-color: #8c8a8b;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+    ul.top-nav-panel>li{
+        display: block;
+        height: auto;
+        padding: 5px 0;
+        line-height: 25px;
+    }
+    ul.top-nav-panel>li:hover{
+        background-color: #acabab;
+    }
+    ul.top-nav-panel>li>a{
+        display: inline-block;
+        width: 100%;
+    }
+    .social-link>ul>li{
+        padding: 5px 10px;
+    }
+    
 }
-.nav-bottom{
-    padding: 0;
-}
-.menu-bottom>nav>ul>li:last-child{
-    border-right: none;
-}
-.menu-bottom>nav>ul>li>a{
-    padding: 0;
-    text-transform: uppercase;
-    color: #626262;
-}
-.payment{
-    padding-top: 20px;
+
+/*=========Custom,iPhone==========*/
+@media only screen and (max-width:320px){
+/*===========Index page=============*/
+    .title-servise>h1{
+        font-size: 16px;
+    }
+/*========Home page=======*/    
 }
