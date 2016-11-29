@@ -490,8 +490,11 @@ ul.list>li>a{
     padding-bottom: 20px;
 }
 .contact .map {
-    margin-top: -20px; 
-    
+    margin-top: -60px; 
+    height: 330px;
+    z-index: 9999;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 .contact address {
     padding: 30px 15px 50px 15px;
