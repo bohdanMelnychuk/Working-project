@@ -469,6 +469,90 @@ ul.list>li>a{
     flex-basis: 250px;
 }
 
+/*Contact Page*/
+/*
+.contact {
+    
+}
+*/
+.contact .contact-info{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 40px 0 60px 0;
+}
+.contact .contact-address {
+    padding-bottom: 20px;
+}
+.contact .map {
+    margin-top: -20px; 
+    
+}
+.contact address {
+    padding: 30px 15px 50px 15px;
+    background-color: #78589b;
+    color: #b288e0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.contact address>span {
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: "OFLGoudyStM";
+    font-size: 16px;
+}
+.contact-info form input,
+.contact-info form textarea{
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: #dadada; 
+}
+.contact-info form input:focus,
+.contact-info form textarea:focus{
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: #dadada;
+    box-shadow: none;
+}
+::-webkit-input-placeholder{
+    color:#505050;
+}
+::-moz-placeholder{
+    color:#505050;
+}
+:-moz-placeholder{
+    color:#505050;
+}
+:-ms-input-placeholder{
+    color:#505050;
+}
+
+.contact-info .send-massage {
+    padding-bottom: 25px;
+}
+.contact .massage-btn{
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #78589b;
+    outline: none;
+    border: none;
+}
+.contact .massage-btn>i{
+    color: #fff;
+    font-size: 14px;
+}
+
+
 
 
 
@@ -541,10 +625,15 @@ ul.list>li>a{
     .title-resource>h1{
         font-size: 20px;
     }
+    
+    /*    =======Contact Page======*/
+    .contact .contact-info{
+        display: block;
+    }
 }
 
 /*=============Tablet==================*/
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
 /*===========Index page=============*/
    .title-servise{
         text-align: left;
@@ -580,7 +669,7 @@ ul.list>li>a{
         display: block;
     }
     
-    
+
 }
 
 /*==================Phone===============*/
