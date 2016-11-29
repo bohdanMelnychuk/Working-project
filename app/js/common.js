@@ -1,5 +1,5 @@
 //$(function(){
-function map(){
+function myMap(){
     var mapCanvas = document.getElementById('map'),
         mapOptions = {
     center: new google.maps.LatLng(55.523, -0.12345),
